@@ -1,0 +1,29 @@
+.gallery-main-wraper{
+    width: 100%;
+    min-height: 0;
+    background-image: url(https://www.visionvivaah.com/argon/img/back.jpg);
+}
+
+.gallery-wraper{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    margin-left: 10vh;
+   gap:5vh;
+   padding-top: 15vh;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-wraper .card{
+ width: 350px;
+ height: 260px;
+ /* background-color: black; */
+ /* padding: 1%; */
+}
+
+.gallery-wraper .card img{
+    width: 100%;
+    height: 100%;
+}
